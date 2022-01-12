@@ -1,5 +1,9 @@
 This is me writing more stuff for lab today. maybe ill try to add a photo
 
+**THESE ARE EDITS IM MAKING IN VSCODE. I HOPE THIS WORKS!**
+
+[Image](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png)
+
 *Italic font, I see how it works now*
 
 **Bold this time, yay it worked!**
