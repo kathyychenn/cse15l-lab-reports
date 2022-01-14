@@ -56,6 +56,18 @@ Next, just like ssh, enter your password. Then, connect to the remote server usi
 
 **Step 5: Setting an SSH Key**
 
+Connecting to a remote server using the ssh command can get inconvenient when you have to type your password everytime, but luckily there is another way! To set up an SSH key, first type the command `ssh-keygen` into the terminal of your client (your computer). Next it will ask you which file you would like to save your key locally in, press enter. Then it will prompt you to enter your password twice. If all goes well, you should receive a message like the following:
+
+![Image](sshkey.png)
+
+Now you have two new different files: one of them is the private key which you will keep on the client server and the other is the public key which needs to be copied to the  server. To do this, first start by using the `ssh` command to log in to the server as we normally do. Next we need to make a directory in the server called .ssh. To do this type the following command:
+`mkdir .ssh`
+Next exit the server. In the client, we will use the `scp` command to copy the public key to the server. Type the following command, replacing with your own userame and path.
+
+`scp /Users/kathychen/.ssh/.id_rsa.pub. cs15lwi22afw@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
+Now you can connect to the server and scp without having to type in your password everytime - this should make things a little more convenient!
+
 **Step 6: Optimizing Remote Running**
 
 
