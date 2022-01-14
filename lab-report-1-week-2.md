@@ -12,6 +12,16 @@ Once you have installed VSCode, when you open it it should look somthing like th
 
 **Step 2: Remotely Connecting**
 
+Next, in VS Code open a terminal and type and type the following command (replace "zz" with your UCSD username):
+
+`$ ssh cs15lwi22zz@ieng6.ucsd.edu`
+
+If this is your first time logging in, say yes to connecting by typing yes. Then enter your UCSD password - you will not be able to see the password on the screen as you type, but don't fret it is really there! If you successfully log in, there should be a message similar to the following:
+
+![Image](remoteconnect.png)
+
+If so, then yay, you have successfully connected to a remote server (woop)!
+
 **Step 3: Trying Some Commands**
 
 **Step 4: Moving Files with scp**
