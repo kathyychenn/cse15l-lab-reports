@@ -66,11 +66,22 @@ Next exit the server. In the client, we will use the `scp` command to copy the p
 
 `scp /Users/kathychen/.ssh/.id_rsa.pub. cs15lwi22afw@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
-Now you can connect to the server and scp without having to type in your password everytime - this should make things a little more convenient!
+Now you can connect to the server and scp without having to type in your password everytime - this should make things a little more convenient! 
 
 **Step 6: Optimizing Remote Running**
 
+Now that we have learned a few different commands and have set up our ssh keys, now we can work on optimizing runtime efficiency by combining commands into one entry! For example, now we can log into the client server and run commands on it in the same line! Here is an example where I create a new directory on the client called "optimize":
 
+![Image](optimize.png)
+
+That's just one example though, feel free to experiment with your new knowledge!!
+
+
+
+
+
+
+1/12 15L Lab Exercises:
 
 ![Image](labreportscreenshot.png)
 
