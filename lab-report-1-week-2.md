@@ -16,13 +16,26 @@ Next, in VS Code open a terminal and type and type the following command (replac
 
 `$ ssh cs15lwi22zz@ieng6.ucsd.edu`
 
-If this is your first time logging in, say yes to connecting by typing yes. Then enter your UCSD password - you will not be able to see the password on the screen as you type, but don't fret it is really there! If you successfully log in, there should be a message similar to the following:
+If this is your first time logging in, you may see a message asking if you are you would like to connect. Say yes to connecting by typing yes. Then enter your UCSD password - you will not be able to see the password on the screen as you type, but don't fret it is really there! If you successfully log in, there should be a message similar to the following:
 
 ![Image](remoteconnect.png)
 
 If so, then yay, you have successfully connected to a remote server (woop)!
 
 **Step 3: Trying Some Commands**
+
+Now that you have remotely connected, here is a list of commands you can try out!
+
+* `cd`
+* `ls`
+* `ls - a`
+* `ls - lat`
+* `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
+
+
+
+To log out of the remote server, type the command `exit` or press command-d.
 
 **Step 4: Moving Files with scp**
 
