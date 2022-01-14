@@ -6,6 +6,19 @@
 First we need to install our IDE, in this case we will be using VS Code! To install it click on the following link:
 [VSCode](https://code.visualstudio.com/)
 
+Once you have installed VSCode, when you open it it should look somthing like this!
+
+![Image](vscodewelcome.png)
+
+**Step 2: Remotely Connecting**
+
+**Step 3: Trying Some Commands**
+
+**Step 4: Moving Files with scp**
+
+**Step 5: Setting an SSH Key**
+
+**Step 6: Optimizing Remote Running**
 
 
 
