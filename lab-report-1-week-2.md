@@ -12,11 +12,11 @@ Once you have installed VSCode, when you open it it should look somthing like th
 
 **Step 2: Remotely Connecting**
 
-Next, in VS Code open a terminal and type and type the following command (replace "zz" with your UCSD username):
+Next, in VS Code open a terminal and type the following command (replace "zz" with your UCSD username):
 
 `$ ssh cs15lwi22zz@ieng6.ucsd.edu`
 
-If this is your first time logging in, you may see a message asking if you are you would like to connect. Say yes to connecting by typing yes. Then enter your UCSD password - you will not be able to see the password on the screen as you type, but don't fret it is really there! If you successfully log in, there should be a message similar to the following:
+If this is your first time logging in, you may see a message asking if you would like to connect. Say yes to connecting by typing yes. Then enter your UCSD password - you will not be able to see the password on the screen as you type, but don't fret it is really there! If you successfully log in, there should be a message similar to the following:
 
 ![Image](remoteconnect.png)
 
