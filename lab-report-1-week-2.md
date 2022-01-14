@@ -33,11 +33,26 @@ Now that you have remotely connected, here is a list of commands you can try out
 * `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
+You may be wondering what the difference is between the different `ls` commands. Let's compare `ls` and `ls -a`. Take a look at the following screenshot:
 
+![Image](lscommands.png)
+
+As you can see, `ls -a` shows more files. This is because it shows all of the hidden files (known as the "dot" files). How fun!
 
 To log out of the remote server, type the command `exit` or press command-d.
 
 **Step 4: Moving Files with scp**
+
+Next we will learn of a command called `scp` which can copy files from a local computer to a remote server! `scp` is always run from the client (which is the local computer). If you have a desired file you would like to copy already, feel free to use that. For now, we will be using, as an example, the file WhereAmI.java. 
+
+First, run the following command from the directory of the file: 
+`scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
+
+If the file successfully copies, the terminal should produce this message:
+
+![Image](scp.png)
+
+Next, just like ssh, enter your password. Then, connect to the remote server using ssh just like before and by using the `ls` command you should now see your new copied file in the list of files on the remote server!
 
 **Step 5: Setting an SSH Key**
 
