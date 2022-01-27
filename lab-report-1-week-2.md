@@ -89,6 +89,7 @@ Here are the results we receive:
 Now, how can we shorten this? By combining our commands  we can type this and get the same results:
 
 `scp WhereAmI.java cs15lwi22afw@ieng6.ucsd.edu:~/; ssh cs15lwi22afw@ieng6.ucsd.edu`
+
 `javac WhereAmI.java; java WhereAmI.java`
 
 By optimizing our coding this way, we completed the same command the second time in just 3 up keystrokes to type `scp WhereAmI.java cs15lwi22afw@ieng6.ucsd.edu:~/;`, 2 to type `ssh cs15lwi22afw@ieng6.ucsd.edu`, 1 to press enter, 7 to type `javac W`, then 1 tab key to fill `WhereAmI.java`, 8 for `; java W`, 1 tab key to fill `WhereAmI` and lastly 1 more for enter for a total of 24 keystrokes. The unoptimized commands we wrote would have required more keystrokes because we entered each command by itself per line.
