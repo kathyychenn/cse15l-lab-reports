@@ -70,9 +70,30 @@ Now you can connect to the server and scp without having to type in your passwor
 
 **Step 6: Optimizing Remote Running**
 
-Now that we have learned a few different commands and have set up our ssh keys, now we can work on optimizing runtime efficiency by combining commands into one entry! For example, now we can log into the client server and run commands on it in the same line! Here is an example where I create a new directory on the client called "optimize":
+Now that we have learned a few different commands and have set up our ssh keys, now we can work on optimizing runtime efficiency by combining commands into one entry! For example, now we can log into the client server and run commands on it in the same line! 
 
-![Image](optimize.png)
+Here is an example where we copy our file WhereAmI.java to the remote server and then run it:
+
+First we will run the command the way we originally learned, one command per line like this:
+
+`scp WhereAmI.java cs15lwi22afw@ieng6.ucsd.edu:~/
+ssh cs15lwi22afw@ieng6.ucsd.edu
+javac WhereAmI.java
+java WhereAmI`
+
+Here are the results we receive:
+
+![Image](ex1.png)
+![Image](ex2.png)
+
+Now, how can we shorten this? By combining our commands  we can type this and get the same results:
+
+`scp WhereAmI.java cs15lwi22afw@ieng6.ucsd.edu:~/; ssh cs15lwi22afw@ieng6.ucsd.edu`
+`javac WhereAmI.java; java WhereAmI.java`
+
+By optimizing our coding this way, we completed the same command the second time in just 3 up keystrokes to type `scp WhereAmI.java cs15lwi22afw@ieng6.ucsd.edu:~/;`, 2 to type `ssh cs15lwi22afw@ieng6.ucsd.edu`, 1 to press enter, 7 to type `javac W`, then 1 tab key to fill `WhereAmI.java`, 8 for `; java W`, 1 tab key to fill `WhereAmI` and lastly 1 more for enter for a total of 24 keystrokes. The unoptimized commands we wrote would have required more keystrokes because we entered each command by itself per line.
+
+![Image](ex3.png)
 
 That's just one example though, feel free to experiment with your new knowledge!!
 
