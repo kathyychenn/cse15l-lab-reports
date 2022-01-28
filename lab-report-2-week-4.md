@@ -28,3 +28,5 @@ The second bug we encountered was with the file `firstline.md` which had a link 
 ![Image](no-paren-fix.png)
 
 ![Image](no-paren-failure.png)
+
+The third bug we encountered was with the file `no-paren.md` which had no set of parentheses and thus no link present, causing getLinks to throw another index out of bounds exception. This happened because when checking for an index of '(' or ')', the variables `openParen` and `closeParen` were both set to -1, and as the method tried to call `markdown.substring(openParen + 1, closeParen)`, it tried to create a substring from index 0 to -1. To fix this bug, we added an aditional if statement before adding the substring to check if `openParen` equals -1 and if so it would return an empty set of brackets because there were no links present.
