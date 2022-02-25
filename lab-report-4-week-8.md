@@ -21,6 +21,14 @@
 
 Expected Output: [google.com, ucsd.edu]
 
+MarkdownParseTest.java implementation:
+
+![Image](MarkdownParseTestSnip1.png)
+
+My Repository Test Results:
+
+![Image](myRepoTestSnip1.png)
+
 **Snippet 2**
 
 ```
@@ -32,6 +40,14 @@ Expected Output: [google.com, ucsd.edu]
 ```
 
 Expected Output: [a.com(()), example.com]
+
+MarkdownParseTest.java implementation:
+
+![Image](MarkdownParseTestSnip2.png)
+
+My Repository Test Results:
+
+![Image](myRepoTestSnip2.png)
 
 **Snippet 3**
 
@@ -64,13 +80,16 @@ And then there's more text
 
 Expected Output: [https://ucsd-cse15l-w22.github.io/]
 
+MarkdownParseTest.java implementation:
+
+![Image](MarkdownParseTestSnip3.png)
+
+My Repository Test Results:
+
+![Image](myRepoTestSnip2.png)
+
 ## MarkdownParseTest.java Implementation of Snippet Tests##
 
 ![Image](snippetTests.png)
 
-## Test Results:
-**My Repository**
-![Image](myRepoTestResults.png)
-
-**Reviewed Repository**
 
