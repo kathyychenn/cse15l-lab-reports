@@ -29,6 +29,10 @@ My Repository Test Results:
 
 ![Image](myRepoTestSnip1.png)
 
+Reviewed Repository Test Results:
+
+![Image](revRepoTestSnip1.png)
+
 **Snippet 2**
 
 ```
@@ -39,7 +43,7 @@ My Repository Test Results:
 [some escaped \[ brackets \]](example.com)
 ```
 
-Expected Output: [a.com(()), example.com]
+Expected Output: [a.com, a.com(()), example.com]
 
 MarkdownParseTest.java implementation:
 
@@ -48,6 +52,10 @@ MarkdownParseTest.java implementation:
 My Repository Test Results:
 
 ![Image](myRepoTestSnip2.png)
+
+Reviewed Repository Test Results:
+
+![Image](revRepoTestSnip1.png)
 
 **Snippet 3**
 
@@ -88,8 +96,9 @@ My Repository Test Results:
 
 ![Image](myRepoTestSnip2.png)
 
-## MarkdownParseTest.java Implementation of Snippet Tests##
+Reviewed Repository Test Results:
 
-![Image](snippetTests.png)
+![Image](revRepoTestSnip1.png)
+
 
 
