@@ -86,4 +86,16 @@ MarkdownParseTest.java implementation:
 
 ![Image](revRepoTestSnips.png)
 
+## Possible Code Fixes ##
 
+**Snippet 1**
+
+There is a small possible code fix for Snippet 1 by checking that if there is a backtick present within the brackets, its corresponding partner backtick must also be present within the brackets. This can be done by having the MarkdownParse getLinks method set currentIndex to the index after the first backtick, and if there is a second backtick present within the set of brackets then it will go ahead and add the corresponding link to getLinks by setting currentIndex to the index after the bracket. Otherwise, it will have currentIndex skip to the next occurence of an open bracket.
+
+**Snippet 2**
+
+I believe there is a code change to accomodate for the errors of Snippet 2 but I don't believe that it will be less than 10 lines because we have to account for a possible nest in the link name and in the URL which would require two different if statements. We would also have to include an if statement regarding the presence of other characters, such as the escape character present for the link `example.com` to set currentIndex in a way that the link will still be added to the list of links returned.
+
+**Snippet 3**
+
+I believe there is a code change to accomodate for the errors of Snippet 2 but I don't believe that it will be less than 10 lines because we have to account for line breaks within the link name within the brackets and the actual URL within the parentheses which would require multiple if statements to determie if line breaks are present using the indexOf method. Additionally, we also need to include another if statement to account for links without closing parentheses which would require another call to the indexOf method.
