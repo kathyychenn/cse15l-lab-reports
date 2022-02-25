@@ -25,14 +25,6 @@ MarkdownParseTest.java implementation:
 
 ![Image](MarkdownParseTestSnip1.png)
 
-My Repository Test Results:
-
-![Image](myRepoTestSnip1.png)
-
-Reviewed Repository Test Results:
-
-![Image](revRepoTestSnip1.png)
-
 **Snippet 2**
 
 ```
@@ -48,14 +40,6 @@ Expected Output: [a.com, a.com(()), example.com]
 MarkdownParseTest.java implementation:
 
 ![Image](MarkdownParseTestSnip2.png)
-
-My Repository Test Results:
-
-![Image](myRepoTestSnip2.png)
-
-Reviewed Repository Test Results:
-
-![Image](revRepoTestSnip1.png)
 
 **Snippet 3**
 
@@ -92,13 +76,14 @@ MarkdownParseTest.java implementation:
 
 ![Image](MarkdownParseTestSnip3.png)
 
-My Repository Test Results:
+## Test Results ##
 
-![Image](myRepoTestSnip2.png)
+**My Repository**
 
-Reviewed Repository Test Results:
+![Image](myRepoTestSnips.png)
 
-![Image](revRepoTestSnip1.png)
+**Reviewed Repository**
 
+![Image](revRepoTestSnips.png)
 
 
